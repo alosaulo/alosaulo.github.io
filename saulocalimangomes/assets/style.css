@@ -1,0 +1,65 @@
+:root {
+    --main-bg-color: #eaeaea;
+    --main-text-color: #333333;
+    --secondary-color: #F7F7F7;
+    --third-color:#007BFF;
+    --highlight-color: #9370DB;
+    --link-color: #004085;
+  }
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 15px;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+h1, h2, p {
+    margin: 10px 0;
+}
+
+/* Estilo da barra de navegação */
+.navbar {
+height: 100%;
+width: 200px;
+position: fixed;
+top: 0;
+left: 0;
+background-color: var(--secondary-color);
+overflow-x: hidden;
+padding-top: 20px;
+}
+
+/* Estilo dos links da barra de navegação */
+.navbar a {
+padding: 15px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+}
+
+/* Alterar cor ao passar o mouse */
+.navbar a:hover {
+color: #f1f1f1;
+}
+
+/* Foto do perfil */
+.profile-pic {
+width: 150px;
+margin: 10px auto;
+border-radius: 50%;
+}
