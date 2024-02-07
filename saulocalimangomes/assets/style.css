@@ -5,7 +5,7 @@
     --third-color:#007BFF;
     --highlight-color: #9370DB;
     --link-color: #004085;
-  }
+}
 
 body {
     background-color: var(--main-bg-color);
@@ -58,6 +58,26 @@ margin: 10px auto;
 border-radius: 50%;
 }
 
+.job {
+    background-color: var(--secondary-color); /* Cor de fundo para cada job */
+    border-radius: 5px; /* Borda arredondada */
+    margin-bottom: 20px; /* Espaçamento entre cada job */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra sutil */
+    padding: 20px; /* Preenchimento interno */
+}
+
+.job-title {
+    color: var(--third-color); /* Cor do título do job */
+    margin-bottom: 10px; /* Espaçamento após o título */
+}
+
+.job-details {
+    font-size: 0.9em; /* Tamanho da fonte menor para detalhes */
+    color: var(--main-text-color); /* Cor do texto */
+    margin-bottom: 15px; /* Espaçamento após os detalhes */
+}
+
+
 .job-title, .job-details, .description, .skills {
     margin-bottom: 20px;
 }
@@ -68,4 +88,66 @@ border-radius: 50%;
 .list-skills li {
     display: inline-block;
     margin-right: 10px;
+}
+
+.highlight {
+    color: var(--highlight-color); /* Cor de destaque */
+    font-weight: bold; /* Negrito */
+}
+
+h1 {
+    text-align: center;
+}
+
+#certificados {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.section-title {
+    text-align: center;
+    color: var(--third-color);
+}
+
+.certificados-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.certificado-item {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.certificado-item h3 {
+    color: var(--highlight-color);
+    margin: 10px 0;
+}
+
+.certificado-item p {
+    margin: 5px 0;
+}
+
+#educacao {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.educacao-item {
+    margin-bottom: 20px;
+}
+
+.educacao-item h3 {
+    color: var(--third-color);
+    margin-bottom: 5px;
+}
+
+.educacao-item p {
+    margin: 2px 0;
+    font-size: 0.9em; /* Ajuste para um tamanho de texto menor para detalhes */
 }
