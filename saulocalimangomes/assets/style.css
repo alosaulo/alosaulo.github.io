@@ -60,10 +60,6 @@ border-radius: 50%;
 }
 
 .job {
-    background-color: var(--secondary-color); /* Cor de fundo para cada job */
-    border-radius: 5px; /* Borda arredondada */
-    margin-bottom: 20px; /* Espaçamento entre cada job */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra sutil */
     padding: 20px; /* Preenchimento interno */
 }
 
@@ -100,7 +96,7 @@ h1 {
     text-align: center;
 }
 
-#certificados {
+section{
     background-color: var(--secondary-color);
     padding: 20px;
     border-radius: 10px;
@@ -139,8 +135,13 @@ h1 {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+.educacao-title{
+    text-align: center;
+}
+
 .educacao-item {
     margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
 }
 
 .educacao-item h3 {
@@ -157,6 +158,7 @@ h1 {
     list-style: none;
     padding: 0;
     display: flex;
+    place-content: center;
 }
 
 .social-links li {
@@ -165,7 +167,7 @@ h1 {
 
 .social-links li a {
     text-decoration: none;
-    color: #000; /* Cor do texto dos links */
+    color: var(--main-bg-color); /* Cor do texto dos links */
 }
 
 .social-links li a i {
