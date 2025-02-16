@@ -7,8 +7,8 @@ export default {
   routes: undefined,
   entryPointToBrowserMapping: {},
   assets: {
-    'index.csr.html': {size: 869, hash: 'd03f6dd53720f0fbe97e390c157e79d5ebfaaf480df120447a9ecf6cad5d4ec3', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1004, hash: '9332584b458944d73fcf8fc9203acceb944b9eb46dc834736ba264af4fc978f1', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'styles-JLPW24XB.css': {size: 2026, hash: 'QyRHITNVBak', text: () => import('./assets-chunks/styles-JLPW24XB_css.mjs').then(m => m.default)}
+    'index.csr.html': {size: 1159, hash: 'dc0131b3eb4a5222154b7795e0557f16f3a6f56b8c2e8ca3686bf7d485a06b7e', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1294, hash: '6dce1f44b625fed72720392c6aced8a2589c9a2cb37493f0befdfd17764de403', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'styles-LTDJIP7L.css': {size: 527, hash: 'yO3/Jbsi/58', text: () => import('./assets-chunks/styles-LTDJIP7L_css.mjs').then(m => m.default)}
   },
 };

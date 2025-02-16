@@ -1,5 +1,12 @@
 {
   "routes": {
-    "/": {}
+    "/": {},
+    "/certificados": {},
+    "/contato": {},
+    "/educacao": {},
+    "/experiencia": {},
+    "/habilidades": {},
+    "/projetos": {},
+    "/sobre": {}
   }
 }
