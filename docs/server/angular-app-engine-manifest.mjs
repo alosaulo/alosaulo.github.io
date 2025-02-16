@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: 'https://alosaulo.github.io/alosaulo.github.io',
   supportedLocales: {
   "en-US": ""
 },
