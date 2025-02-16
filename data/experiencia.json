@@ -1,0 +1,30 @@
+{
+  "apresentacao": "Com mais de uma década de experiência dedicada ao desenvolvimento de sistemas e jogos digitais, tenho uma sólida trajetória profissional que se estende por diversos aspectos da tecnologia da informação. Por mais de uma década, atuei como professor, compartilhando conhecimentos e inspirando alunos nas áreas de Jogos Digitais, Sistemas de Informação, Gestão de TI e Redes de Computadores. Além disso, nos últimos anos, desempenhei papéis-chave como engenheiro de software, analista de sistemas e gestor de equipes, onde minha expertise contribuiu significativamente para o sucesso de projetos inovadores e a eficácia operacional das equipes que liderei.",
+  
+  "experiencias": [
+    {
+      "empresa": "Centro de Ensino Superior Fabra",
+      "cargos": [
+        {
+          "titulo": "Professor",
+          "periodo": "Jun 2018 - Jul 2021",
+          "duracao": "3 anos e 2 meses",
+          "descricao": "Servi como professor nos cursos de Governança em TI, Redes de Computadores e Sistemas de Informação. Durante esse período, lecionei para diversas disciplinas, como Administração de Banco de Dados, Análise e Design de Sistemas, Arquitetura de Computadores, Banco de Dados, Computação Gráfica, Desenvolvimento de Aplicações Web, Engenharia de Software, Governança em TI, Algoritmos e Lógica de Programação, Matemática Aplicada, Multimídia, Algoritmos de Busca e Ordenação, Programação Estruturada, Programação Orientada a Objetos, Programação para Dispositivos Móveis, Administração de Redes e Sistemas Operacionais.",
+          "habilidades": ["Banco de Dados", "Desenvolvimento de Sistemas", "Linguagens e Programação", "Governança e Gestão de TI", "Computação Gráfica e Multimídia", "Redes e Infraestrutura", "Ensino e Liderança", "Resolução de Problemas", "Trabalho em Equipe e Colaboração"]
+        }
+      ]
+    },
+    {
+      "empresa": "Ifes - Instituto Federal do Espírito Santo",
+      "cargos": [
+        {
+          "titulo": "Estagiário de TI",
+          "periodo": "Out 2011 - Set 2012",
+          "duracao": "1 ano",
+          "descricao": "Atuei no desenvolvimento, manutenção e suporte técnico de sistemas internos.",
+          "habilidades": ["ASP.NET", "SQL Server", "HTML", "CSS", "JavaScript"]
+        }
+      ]
+    }
+  ]
+}
