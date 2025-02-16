@@ -1,0 +1,25 @@
+#educacao {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.educacao-title {
+    text-align: center;
+}
+
+.educacao-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.educacao-item h3 {
+    color: var(--third-color);
+    margin-bottom: 5px;
+}
+
+.educacao-item p {
+    margin: 2px 0;
+    font-size: 0.9em;
+}

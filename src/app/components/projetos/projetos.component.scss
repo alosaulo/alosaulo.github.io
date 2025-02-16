@@ -1,0 +1,19 @@
+.job {
+    padding: 20px; /* Preenchimento interno */
+}
+
+.job-title {
+    color: var(--third-color); /* Cor do título do job */
+    margin-bottom: 10px; /* Espaçamento após o título */
+}
+
+.job-details {
+    font-size: 0.9em; /* Tamanho da fonte menor para detalhes */
+    color: var(--main-text-color); /* Cor do texto */
+    margin-bottom: 15px; /* Espaçamento após os detalhes */
+}
+
+
+.job-title, .job-details, .description, .skills {
+    margin-bottom: 20px;
+}

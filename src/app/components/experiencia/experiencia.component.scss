@@ -1,0 +1,46 @@
+.job {
+    padding: 20px;
+}
+
+.job-title {
+    color: var(--third-color);
+    margin-bottom: 10px;
+}
+
+.job-details {
+    font-size: 0.9em;
+    color: var(--main-text-color);
+    margin-bottom: 15px;
+}
+
+.job-title,
+.job-details,
+.description,
+.skills {
+    margin-bottom: 20px;
+}
+
+.skills-container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; /* Espaço entre as bolhas */
+}
+  
+.skills-bubble {
+background-color: #007bff; /* Azul Bootstrap */
+color: white;
+padding: 8px 12px;
+border-radius: 20px; /* Borda arredondada */
+font-size: 14px;
+font-weight: bold;
+display: inline-block;
+text-align: center;
+transition: all 0.3s ease-in-out;
+}
+  
+.skills-bubble:hover {
+background-color: #0056b3; /* Azul escuro no hover */
+transform: scale(1.1); /* Pequeno zoom ao passar o mouse */
+}
+  
