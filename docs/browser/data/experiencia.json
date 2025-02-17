@@ -68,8 +68,8 @@
       "cargos": [
         {
           "titulo": "Bolsista",
-          "periodo": "",
-          "duracao": "3 anos e 4 meses",
+          "periodo": "Out 2022 - Presente",
+          "duracao": "",
           "descricao": "Pesquisador e Supervisor de Projetos de Sistemas de Gestão e Tecnologia Educacional para Inovação, Efetividade e Eficiência na Secretaria de Estado da Saúde do Espírito Santo e no SUS. Trabalho na implementação e pesquisa de sistemas open-source, desenvolvimento de software e gamificação.",
           "habilidades": ["RESTful", "SOAP", "Manutenção de Sistemas Open-Source", "Ubuntu Server", "PHP", "PostgreSQL", "MySQL", "C#", "Unity 3D", "Data Science"]
         }

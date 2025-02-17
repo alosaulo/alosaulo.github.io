@@ -1,0 +1,24 @@
+[
+    {
+      "titulo": "Good Game Brasil – Game Jam",
+      "descricao": "Participação e conclusão do evento de Game Jam promovido pela Embaixada do Brasil em Helsinque.",
+      "instituicao": "Embaixada do Brasil em Helsinque",
+      "carga_horaria": "48 horas",
+      "data_conclusao": "2023"
+    },
+    {
+      "titulo": "ASP.NET Core, MVC, C#, Angular, ChatGPT & EF Crash Course",
+      "descricao": "Curso intensivo cobrindo conceitos fundamentais e avançados de desenvolvimento web utilizando ASP.NET Core, MVC, Angular e Entity Framework.",
+      "instituicao": "Udemy",
+      "carga_horaria": "20 horas",
+      "data_conclusao": "2024"
+    },
+    {
+      "titulo": "Modelagem de Dados UML",
+      "descricao": "Curso sobre modelagem de dados utilizando UML, abordando diagramas de classes, relacionamentos e boas práticas de design de banco de dados.",
+      "instituicao": "Udemy",
+      "carga_horaria": "15 horas",
+      "data_conclusao": "2023"
+    }
+  ]
+  

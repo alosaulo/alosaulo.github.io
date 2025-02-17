@@ -1,20 +1,24 @@
 <section id="experiencia" *ngIf="curriculo">
-    <h1>Experiências</h1>
-    <p class="card-text">
-        {{ curriculo.apresentacao }}
-    </p>
-    <div class="job" *ngFor="let exp of curriculo.experiencias">
-        <h2>{{ exp.empresa }}</h2>
-      
-        <div *ngFor="let cargo of exp.cargos">
-          <p class="job-title">{{ cargo.titulo }}
-            <span class="job-details">| {{ cargo.periodo }} - {{ cargo.duracao }}</span>
-          </p>
-          <p class="description">{{ cargo.descricao }}</p>
-          <div class="skills skills-container">
-            <span class="badge badge-secondary" *ngFor="let hab of cargo.habilidades">{{ hab }}</span>
-          </div>          
-        </div>
-        <hr />
+  <h1>Experiências</h1>
+  <p class="card-text">
+      {{ curriculo.apresentacao }}
+  </p>
+  <div class="job" *ngFor="let exp of curriculo.experiencias">
+      <h2>{{ exp.empresa }}</h2>
+    
+      <div *ngFor="let cargo of exp.cargos">
+        <p class="job-title">
+          {{ cargo.titulo }}
+          <span class="job-details">
+            | {{ cargo.periodo }} 
+            <span *ngIf="cargo.duracao"> ({{ cargo.duracao }})</span>
+          </span>
+        </p>
+        <p class="description">{{ cargo.descricao }}</p>
+        <div class="skills skills-container">
+          <span class="badge badge-secondary" *ngFor="let hab of cargo.habilidades">{{ hab }}</span>
+        </div>          
       </div>
+      <hr />
+  </div>
 </section>

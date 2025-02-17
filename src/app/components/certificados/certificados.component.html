@@ -1,20 +1,11 @@
-<section id="certificados">
+<section id="certificados" *ngIf="certificados">
     <h2 class="section-title">Certificados</h2>
     <ul class="certificados-lista">
-        <li class="certificado-item">
-            <h3>Good Game Brasil – Game Jam</h3>
-            <p><strong>Instituição:</strong> Embaixada do Brasil em Helsinque</p>
-            <p><strong>Ano de Conclusão:</strong> 2021</p>
-        </li>
-        <li class="certificado-item">
-            <h3>ASP NET CORE, MVC, C#, Angular, ChatGPT & EF Crash Course</h3>
-            <p><strong>Instituição:</strong> Udemy</p>
-            <p><strong>Ano de Conclusão:</strong> 2023</p>
-        </li>
-        <li class="certificado-item">
-            <h3>Modelagem de Dados UML</h3>
-            <p><strong>Instituição:</strong> Udemy</p>
-            <p><strong>Instrutor:</strong>M.Sc Nelio Alves</p>
+        <li class="certificado-item" *ngFor="let cert of certificados">
+            <h3>{{ cert.titulo }}</h3>
+            <p><strong>Instituição:</strong> {{ cert.instituicao }}</p>
+            <p *ngIf="cert.data_conclusao"><strong>Ano de Conclusão:</strong> {{ cert.data_conclusao | date: 'yyyy' }}</p>
+            <p *ngIf="cert.carga_horaria"><strong>Carga Horária:</strong> {{ cert.carga_horaria }}</p>
         </li>
     </ul>
 </section>
