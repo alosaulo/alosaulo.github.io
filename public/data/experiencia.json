@@ -3,6 +3,93 @@
   
   "experiencias": [
     {
+      "empresa": "Centro Estadual de Educação Técnica Vasco Coutinho",
+      "cargos": [
+        {
+          "titulo": "Coordenador",
+          "periodo": "Jan 2021 - Presente",
+          "duracao": "",
+          "descricao": "Como coordenador do curso de Programação de Jogos Digitais, sou responsável por garantir o bom funcionamento do curso e o sucesso dos alunos. Minhas atividades incluem gestão acadêmica, desenvolvimento curricular, suporte aos docentes e a administração da instituição.",
+          "habilidades": ["Gestão Acadêmica", "Liderança", "Desenvolvimento Curricular", "Mentoria", "Coordenação de Projetos", "Trabalho em Equipe"]
+        },
+        {
+          "titulo": "Professor",
+          "periodo": "Jun 2013 - Presente",
+          "duracao": "",
+          "descricao": "Atuo como professor nos cursos de Tecnologia da Informação, Redes de Computadores e Programação de Jogos Digitais. Leciono disciplinas como Administração de Banco de Dados, Engenharia de Software, Programação Orientada a Objetos, Desenvolvimento Web, Computação Gráfica, Multimídia e Sistemas Operacionais.",
+          "habilidades": ["Banco de Dados", "Engenharia de Software", "Desenvolvimento Web", "Programação Orientada a Objetos", "Redes de Computadores", "Computação Gráfica", "Sistemas Operacionais", "Ensino e Didática"]
+        },
+        {
+          "titulo": "Desenvolvedor de Software Líder",
+          "periodo": "Feb 2019 - Presente",
+          "duracao": "",
+          "descricao": "Sou responsável pela manutenção, modelagem e desenvolvimento de um sistema de inscrição para cursos EAD, semi-presenciais e presenciais. Minhas atividades incluem arquitetura de software, desenvolvimento full-stack e gestão de infraestrutura de servidores.",
+          "habilidades": ["Arquitetura de Software", "Entity Framework", "ASP.NET MVC", "Desenvolvimento Full-Stack", "Banco de Dados SQL Server", "Windows Server", "Bootstrap", "Publicação de Sistemas"]
+        },
+        {
+          "titulo": "Desenvolvedor de Software Líder (Projeto Petgames - FAPES)",
+          "periodo": "May 2021 - Dec 2021",
+          "duracao": "8 meses",
+          "descricao": "Fui bolsista da FAPES no CEET-VC, contribuindo para o projeto Petgames. Participei ativamente do desenvolvimento do jogo 'Corrida por Patente', um serious game educacional sobre patentes. Atuei tanto no desenvolvimento quanto na orientação de estudantes.",
+          "habilidades": ["C#", "Unity", "Game Design", "Desenvolvimento de Jogos", "Produção de Jogos Digitais", "Mentoria Acadêmica"]
+        },
+        {
+          "titulo": "Desenvolvedor de Software Líder (Projeto Centro Técnico Criativo - CTC - FAPES)",
+          "periodo": "Jul 2017 - Dec 2018",
+          "duracao": "1 ano e 6 meses",
+          "descricao": "Fui bolsista da FAPES no CEET-VC, contribuindo para o projeto Centro Técnico Criativo (CTC). Desenvolvi um sistema para monitorar e conectar a comunidade, jovens vulneráveis, governo e parceiros dentro do programa Ocupação Social. Além do desenvolvimento, liderei a equipe e dei suporte aos alunos.",
+          "habilidades": ["Entity Framework", "ASP.NET MVC", "Desenvolvimento Full-Stack", "Banco de Dados SQL Server", "Bootstrap", "Windows Server", "Gestão de Projetos", "Liderança de Equipes"]
+        }
+      ]
+    }
+    ,
+    {
+      "empresa": "Quimera Soluções Tecnológicas",
+      "cargos": [
+        {
+          "titulo": "Sócio Fundador",
+          "periodo": "Jan 2021 - Presente",
+          "duracao": "",
+          "descricao": "Como sócio fundador, contribuo para a tomada de decisões estratégicas da empresa e participo de diversos projetos em diferentes domínios.",
+          "habilidades": ["Gestão Empresarial", "Liderança", "Tomada de Decisão", "Negociação", "Planejamento Estratégico"]
+        },
+        {
+          "titulo": "Lead Software Developer",
+          "periodo": "Fev 2021 - Presente",
+          "duracao": "",
+          "descricao": "Atuo como programador em desenvolvimentos de jogos.",
+          "habilidades": ["Unity", "Game Design", "C#", "Desenvolvimento de Jogos", "Gerenciamento de Equipes"]
+        }
+      ]
+    }
+    ,
+    {
+      "empresa": "Instituto Capixaba de Ensino, Pesquisa e Inovação (ICEPi)",
+      "cargos": [
+        {
+          "titulo": "Bolsista",
+          "periodo": "",
+          "duracao": "3 anos e 4 meses",
+          "descricao": "Pesquisador e Supervisor de Projetos de Sistemas de Gestão e Tecnologia Educacional para Inovação, Efetividade e Eficiência na Secretaria de Estado da Saúde do Espírito Santo e no SUS. Trabalho na implementação e pesquisa de sistemas open-source, desenvolvimento de software e gamificação.",
+          "habilidades": ["RESTful", "SOAP", "Manutenção de Sistemas Open-Source", "Ubuntu Server", "PHP", "PostgreSQL", "MySQL", "C#", "Unity 3D", "Data Science"]
+        }
+      ]
+    }
+    ,
+    {
+      "empresa": "LAIS - Laboratório de Inovação Tecnológica em Saúde",
+      "cargos": [
+        {
+          "titulo": "Back End Developer",
+          "periodo": "Ago 2022 - Mai 2024",
+          "duracao": "1 ano e 10 meses",
+          "descricao": "Atuei no desenvolvimento backend utilizando Laravel e PostgreSQL, participando da construção e manutenção de sistemas inovadores para a área da saúde.",
+          "habilidades": ["Laravel", "PHP", "PostgreSQL"]
+        }
+      ]
+    }
+    ,
+    {
       "empresa": "Centro de Ensino Superior Fabra",
       "cargos": [
         {

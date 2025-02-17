@@ -1,12 +1,3 @@
 {
-  "routes": {
-    "/alosaulo.github.io": {},
-    "/alosaulo.github.io/certificados": {},
-    "/alosaulo.github.io/contato": {},
-    "/alosaulo.github.io/educacao": {},
-    "/alosaulo.github.io/experiencia": {},
-    "/alosaulo.github.io/habilidades": {},
-    "/alosaulo.github.io/projetos": {},
-    "/alosaulo.github.io/sobre": {}
-  }
+  "routes": {}
 }

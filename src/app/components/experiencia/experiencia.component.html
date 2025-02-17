@@ -8,11 +8,11 @@
       
         <div *ngFor="let cargo of exp.cargos">
           <p class="job-title">{{ cargo.titulo }}
-            <span class="job-details">| {{ cargo.periodo }} ({{ cargo.duracao }})</span>
+            <span class="job-details">| {{ cargo.periodo }} - {{ cargo.duracao }}</span>
           </p>
           <p class="description">{{ cargo.descricao }}</p>
           <div class="skills skills-container">
-            <span class="badge badge-primary" *ngFor="let hab of cargo.habilidades">{{ hab }}</span>
+            <span class="badge badge-secondary" *ngFor="let hab of cargo.habilidades">{{ hab }}</span>
           </div>          
         </div>
         <hr />
