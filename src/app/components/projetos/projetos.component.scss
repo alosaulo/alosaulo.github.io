@@ -17,3 +17,18 @@
 .job-title, .job-details, .description, .skills {
     margin-bottom: 20px;
 }
+
+.projeto-imagens {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  place-self: center
+}
+.projeto-img {
+  max-width: 240px;
+  height: auto;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}

@@ -1,3 +1,18 @@
 <section id="projetos">
-    <h2>Projetos Desenvolvidos</h2>
+  <h2 class="section-title">Projetos e Participações</h2>
+  <div *ngIf="projetos.length > 0; else semProjetos">
+    <div class="job" *ngFor="let projeto of projetos">
+      <h3 class="job-title">{{ projeto.empresa }}</h3>
+      <p class="job-details">
+        <strong>{{ projeto.cargo }}</strong> | {{ projeto.periodo }}
+      </p>
+      <div *ngIf="projeto.imagens?.length" class="projeto-imagens mb-2">
+        <img *ngFor="let img of projeto.imagens" [src]="'/imagens/' + img" [alt]="projeto.empresa" class="projeto-img"/>
+      </div>
+      <p class="description" [innerHTML]="projeto.descricao"></p>
+    </div>
+  </div>
+  <ng-template #semProjetos>
+    <p>Nenhum projeto cadastrado ainda.</p>
+  </ng-template>
 </section>

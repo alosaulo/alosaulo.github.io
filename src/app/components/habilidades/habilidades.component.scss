@@ -1,8 +1,24 @@
+.section-title {
+    text-align: center;
+    color: var(--third-color);
+}
+
+.habilidade-area {
+    background-color: var(--secondary-color);
+    border-bottom: 1px solid #ccc;
+}
+
+.habilidade-area h3 {
+    color: var(--third-color);
+    margin-bottom: 10px;
+}
+
 .list-skills {
     list-style-type: none;
     padding-left: 0;
 }
+
 .list-skills li {
-    display: inline-block;
-    margin-right: 10px;
+    margin-bottom: 8px;
+    font-size: 1em;
 }
