@@ -54,11 +54,18 @@
           "habilidades": ["Gestão Empresarial", "Liderança", "Tomada de Decisão", "Negociação", "Planejamento Estratégico"]
         },
         {
-          "titulo": "Lead Software Developer",
+          "titulo": "Desenvolvedor de Jogos",
           "periodo": "Fev 2021 - Presente",
           "duracao": "",
-          "descricao": "Atuo como programador em desenvolvimentos de jogos.",
+          "descricao": "Atuo no desenvolvimento de jogos digitais, participando de todas as etapas do processo, desde o design até a implementação e publicação.",
           "habilidades": ["Unity", "Game Design", "C#", "Desenvolvimento de Jogos", "Gerenciamento de Equipes"]
+        },
+        {
+          "titulo": "Desenvolvedor de Software / Especialista em Tecnologias Avançadas",
+          "periodo": "Jan 2021 - Presente",
+          "duracao": "",
+          "descricao": "Desenvolvo softwares, soluções com inteligência artificial, realidade virtual e aumentada, além de participar de projetos inovadores em diferentes domínios tecnológicos.",
+          "habilidades": ["Inteligência Artificial", "Realidade Virtual", "Realidade Aumentada", "Desenvolvimento de Software", "Sistemas de Gestão", "Gerenciamento de Equipes"]
         }
       ]
     }
