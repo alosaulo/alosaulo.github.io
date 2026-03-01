@@ -12,6 +12,8 @@ import { HabilidadesComponent } from './components/habilidades/habilidades.compo
 import { HeaderComponent } from './components/header/header.component';
 import { ProjetosComponent } from './components/projetos/projetos.component';
 import { SobreMimComponent } from './components/sobre-mim/sobre-mim.component';
+import { EventosComponent } from './components/eventos/eventos';
+import { Imprimir } from './components/imprimir/imprimir';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'sobre', pathMatch: 'full' },   // Rota padrão, redireciona para /sobre
@@ -22,6 +24,8 @@ export const routes: Routes = [
     { path: 'educacao', component: EducacaoComponent },
     { path: 'habilidades', component: HabilidadesComponent },
     { path: 'projetos', component: ProjetosComponent },
+    { path: 'eventos', component: EventosComponent },
+    { path: 'imprimir', component: Imprimir },
   // { path: 'qualquer-outra', component: OutroComponent },
 
   // Rota curinga para tratar URLs não encontradas

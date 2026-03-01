@@ -1,0 +1,13 @@
+@media print {
+  header, nav, .navbar, button, .social-links {
+    display: none !important;
+  }
+  section {
+    box-shadow: none !important;
+    background: white !important;
+    color: black !important;
+  }
+  body {
+    background: white !important;
+  }
+}

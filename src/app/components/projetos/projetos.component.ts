@@ -3,8 +3,8 @@ import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 
 interface Projeto {
-  empresa: string;
-  cargo: string;
+  titulo: string;
+  instituicao: string;
   periodo: string;
   descricao: string;
   imagens?: string[];

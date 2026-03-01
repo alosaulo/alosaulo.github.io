@@ -1,0 +1,18 @@
+<section id="eventos">
+  <h2 class="section-title">Eventos e Participações</h2>
+  <div *ngIf="eventos.length > 0; else semEventos">
+    <div class="evento" *ngFor="let evento of eventos">
+      <h3 class="evento-title">{{ evento.nome }}</h3>
+      <p class="evento-details">
+        <strong>{{ evento.tipo }}</strong><span *ngIf="evento.local"> | {{ evento.local }}</span>
+      </p>
+      <p class="description" [innerHTML]="evento.descricao"></p>
+      <div *ngIf="evento.imagens?.length" class="evento-imagens mb-2">
+        <img *ngFor="let img of evento.imagens" [src]="'/imagens/Eventos/' + img" [alt]="evento.nome" class="evento-img"/>
+      </div>
+    </div>
+  </div>
+  <ng-template #semEventos>
+    <p>Nenhum evento cadastrado ainda.</p>
+  </ng-template>
+</section>

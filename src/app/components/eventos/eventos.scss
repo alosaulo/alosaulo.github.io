@@ -1,0 +1,29 @@
+.evento {
+  padding: 20px;
+}
+
+.evento-title {
+  color: var(--third-color);
+  margin-bottom: 10px;
+}
+
+.evento-details {
+  font-size: 0.9em;
+  color: var(--main-text-color);
+  margin-bottom: 15px;
+}
+
+.evento-imagens {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  place-self: center;
+}
+.evento-img {
+  max-width: 240px;
+  max-height: 320px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}

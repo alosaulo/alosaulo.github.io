@@ -3,6 +3,32 @@
         "empresa": "Mundo A",
         "cargo": "Sócio Fundador",
         "periodo": "Dez 2023 - Atual",
-        "descricao": "Como sócio fundador, contribuo para os principais processos de tomada de decisão..."
-    }
+        "descricao": "Como sócio fundador, contribuo para os principais processos de tomada de decisão...",
+        "imagens": ["/imagens/mundoa1.svg", "/imagens/mundoa2.svg"]
+    },
+    {
+        "empresa": "Projeto de Combate às Arboviroses nas Escolas | ICEPi / Qualifica-APS ",
+        "cargo": "Co-responsável pelo evento piloto",
+        "periodo": "Vila Velha/ES – Fevereiro de 2026",
+        "descricao": "<ul><li>Co-responsável pela execução do evento piloto na UMEF Professor Luiz Malizeck, integrando ações de saúde, educação e cultura.</li><li>Coordenação de logística para atividades lúdicas, incluindo a exposição do ciclo de vida do <i>Aedes aegypti</i> e palestras dinâmicas.</li><li>Facilitação de dinâmicas de grupo para o público infantil, focando no engajamento e na recepção da mensagem através do entretenimento.</li></ul>",
+        "imagens": ["1741276198526.jpeg", "1741722448416.jpeg"]
+    },
+    {
+        "empresa": "ICEPi / SESA",
+        "cargo": "Expositor e Desenvolvedor do jogo Caça Dengue",
+        "periodo": "Vitória/ES – 12 e 13 de fevereiro de 2024",
+        "descricao": "<p>O Instituto Capixaba de Ensino, Pesquisa e Inovação em Saúde (ICEPi), vinculado à Secretaria de Estado da Saúde do Espírito Santo (SESA), se destacou na 1ª Semana de Informática em Saúde da Universidade Federal do Espírito Santo (UFES), realizada nos dias 12 e 13 deste mês, com a exposição do jogo educativo <strong>Caça Dengue</strong>.</p><p>Desenvolvido para promover o engajamento lúdico e educativo, o Caça Dengue oferece uma experiência imersiva sobre o mosquito transmissor da doença. Por meio de uma abordagem interativa, o jogo ensina os conceitos fundamentais sobre a dengue, seus sintomas e a importância de eliminar focos do mosquito, incentivando atitudes preventivas e o conhecimento sobre a doença de forma acessível e divertida.</p>",
+        "imagens": [
+            "1732022554864.jpeg"
+        ]
+    },
+    {
+    "empresa": "CEET Vasco Coutinho",
+    "cargo": "Organizador e Entrevistado sobre Game Jam",
+    "periodo": "Vila Velha/ES – Semestre letivo",
+    "descricao": "<p>Recentemente tive o privilégio de compartilhar alguns insights sobre a Game Jam que fazemos em cada semestre no CEET Vasco Coutinho em uma entrevista para o jornal <strong>A Tribuna</strong>. Este evento é aonde nossos alunos, do curso de Programação de Jogos Digitais, mostram todo seu talento, paixão e dedicação.</p><p>A Game Jam é um evento aonde seus participantes, programadores, designers e entusiastas, utilizam toda a sua criatividade e habilidades para criar um jogo do zero em poucos dias.</p><p>Para mim, cada Game Jam é mais do que um evento – é um laboratório de inovação. Aonde podemos testar novas ideias, explorar novas mecânicas e levar a jogabilidade a outro nível. Sempre que participo vejo como uma chance de ultrapassar meus próprios limites e aprimorar minhas habilidades.</p><p>Um enorme agradecimento a todos que participaram. Vocês são os verdadeiros heróis dessa história. Sem a paixão e o empenho de cada um, os resultados incríveis que alcançamos não seriam possíveis.</p>",
+    "imagens": [
+        "1702551336170.jpeg"
+    ]
+}
 ]
