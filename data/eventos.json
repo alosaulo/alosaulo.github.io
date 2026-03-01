@@ -1,0 +1,58 @@
+[
+  {
+    "nome": "ESX (Espírito Santo Innovation Experience)",
+    "tipo": "Exposição",
+    "data": "",
+    "local": "Vitória/ES - Praça do Papa",
+    "descricao": "<p>Participo do ESX (Espírito Santo Innovation Experience) desde sua primeira versão em 2023. Apresento os projetos da Quimera Soluções Tecnológicas e também de outras instituições que participo.</p>",
+    "imagens": ["Esx/esx-2024-1.jpg", "Esx/esx-2024-3.jpg", "Esx/IMG_20230603_104406.jpg", "Esx/IMG-20230603-WA0004.jpg", "Esx/WhatsApp Image 2026-02-27 at 11.17.51.jpeg", "Esx/WhatsApp Image 2026-02-27 at 11.17.52.jpeg"]
+  },
+  {
+    "nome": "Headscom 2025",
+    "tipo": "Exposição",
+    "data": "",
+    "local": "Vila Velha/ES - Vasco Coutinho",
+    "descricao": "<p>Participei da Headscom 2025, uma plataforma nacional de games, educação, cultura e tecnologia que fomenta conexões e grandes eventos. Na ocasião, a Quimera apresentou uma 'Gamer Room', proporcionando ao público a experiência de jogar títulos de diversas gerações.</p>",
+    "imagens": ["HeadsCom/IMG_20250810_160023.jpg", "HeadsCom/WhatsApp Image 2026-02-27 at 11.15.000.jpeg", "HeadsCom/WhatsApp Image 2026-02-27 at 11.15.02.jpeg", "HeadsCom/WhatsApp Image 2026-02-27 at 11.15.04.jpeg", "HeadsCom/WhatsApp Image 2026-02-27 at 11.15.07.jpeg"]
+  },
+  {
+    "nome": "Semana Estadual de Ciência, Tecnologia e Inovação do Espírito Santo",
+    "tipo": "Exposição",
+    "data": "",
+    "local": "",
+    "descricao": "<p>Participo da Semana Estadual de Ciência, Tecnologia e Inovação do Espírito Santo, atuo na apresentação de projetos que seguem as diretrizes nacionais de ciência e tecnologia.</p>",
+    "imagens": ["SCT/IMG_20250905_213908_677.jpg", "SCT/IMG-20231030-WA0024.jpg", "SCT/IMG-20231031-WA0043.jpg"]
+  },
+  {
+    "nome": "Entrevista na Tribuna sobre a Game Jam CEET Vasco Coutinho",
+    "tipo": "Organização e participação",
+    "data": "Semestre letivo",
+    "local": "Vila Velha/ES – CEET Vasco Coutinho",
+    "descricao": "<p>Organização e participação na Game Jam, evento onde alunos criam jogos do zero em poucos dias, promovendo inovação e criatividade.</p>",
+    "imagens": ["1702551336170.jpeg"]
+  },
+  {
+    "nome": "Evento piloto de Combate às Arboviroses nas Escolas",
+    "tipo": "Organização e execução",
+    "data": "Março de 2025",
+    "local": "Vila Velha/ES – UMEF Professor Luiz Malizeck",
+    "descricao": "<ul><li>Co-responsável pela execução do evento piloto, integrando ações de saúde, educação e cultura.</li><li>Coordenação de logística para atividades lúdicas, exposição do ciclo de vida do <i>Aedes aegypti</i> e palestras dinâmicas.</li><li>Facilitação de dinâmicas de grupo para o público infantil.</li></ul>",
+    "imagens": ["1741276198526.jpeg", "1741722448416.jpeg"]
+  },
+  {
+    "nome": "Cariacica Geek Game",
+    "tipo": "Participação e Exposição",
+    "data": "Semestre letivo",
+    "local": "Cariacica/ES – Matrix Hall",
+    "descricao": "<p>Representando o Vasco Coutinho e a Quimera Soluções Tecnológicas no Cariacica Geek Games, atuei na exposição e demonstração de jogos desenvolvidos.</p>",
+    "imagens": ["CGG/CGG-2025.jpeg", "CGG/IMG_20250927_122056.jpg"]
+  },
+  {
+    "nome": "Exposição do jogo Caça Dengue na 1ª Semana de Informática em Saúde da UFES",
+    "tipo": "Exposição",
+    "data": "12 e 13 de fevereiro de 2024",
+    "local": "Vitória/ES – UFES",
+    "descricao": "<p>Exposição do jogo educativo <strong>Caça Dengue</strong> para promover engajamento lúdico e educativo sobre a dengue.</p>",
+    "imagens": ["1732022554864.jpeg"]
+  }
+]
