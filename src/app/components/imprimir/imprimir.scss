@@ -1,13 +1,127 @@
+@page {
+  size: A4;
+  margin: 12mm;
+}
+
 @media print {
-  header, nav, .navbar, button, .social-links {
-    display: none !important;
+  :root {
+    --print-title: var(--third-color, #007BFF);
+    --print-text: var(--main-text-color, #333333);
+    --print-muted: var(--link-color, #004085);
+    --print-border: #cfe2ff;
+    --print-surface: #f7f7f7;
   }
-  section {
-    box-shadow: none !important;
-    background: white !important;
-    color: black !important;
+
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
+
   body {
-    background: white !important;
+    background: #fff !important;
+    color: var(--print-text) !important;
+    font-size: 10.5pt;
+    line-height: 1.35;
+  }
+
+  html,
+  body,
+  app-root,
+  app-imprimir,
+  .imprimir,
+  .imprimir-container,
+  .container,
+  .container-fluid {
+    background: #fff !important;
+    text-align: justify;
+  }
+
+  /* Hierarquia de títulos (foco principal) */
+  h1,
+  .section-title,
+  .educacao-title {
+    font-weight: 700 !important;
+    break-before: auto;          /* CSS moderno */
+    page-break-before: auto;   /* fallback */
+    break-after: avoid-page;     /* evita conteúdo quebrar logo após o título */
+    page-break-after: avoid;
+    font-size: 18pt !important;
+    line-height: 1.2;
+    color: var(--print-title) !important;
+    margin: 0 0 8pt 0 !important;
+  }
+
+  h1:first-of-type {
+    break-before: auto;
+    page-break-before: auto;
+  }
+
+  h2 {
+    font-size: 14pt !important;
+    color: var(--print-title) !important;
+    margin: 0 0 6pt 0 !important;
+  }
+
+  h3,
+  .job-title,
+  .evento-title {
+    font-size: 12pt !important;
+    color: var(--print-title) !important;
+    margin: 0 0 4pt 0 !important;
+  }
+
+  p, li, .job-details, .evento-details, .description {
+    font-size: 10.5pt !important;
+    color: var(--print-text) !important;
+  }
+
+  section {
+    background: #fff !important;
+    color: var(--print-text) !important;
+    border: 1px solid var(--print-border);
+    box-shadow: none !important;
+    border-radius: 6px;
+    padding: 10pt 12pt !important;
+    margin-bottom: 8pt !important;
+  }
+
+  .card,
+  .card-body,
+  .job,
+  .evento,
+  .certificado-item,
+  .educacao-item,
+  .habilidade-area {
+    background: #fff !important;
+    box-shadow: none !important;
+  }
+
+  a {
+    color: var(--print-muted) !important;
+    text-decoration: none !important;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .job,
+  .evento,
+  .certificado-item,
+  .educacao-item,
+  .habilidade-area {
+    page-break-inside: avoid;
+    break-inside: avoid-page;
+  }
+
+  header{
+    background-color: #fff !important;
+  }
+
+  .navbar, button, .social-links {
+    display: none !important;
   }
 }

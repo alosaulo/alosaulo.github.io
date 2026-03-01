@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { SobreMimComponent } from "../sobre-mim/sobre-mim.component";
 import { CertificadosComponent } from "../certificados/certificados.component";
 import { ExperienciaComponent } from "../experiencia/experiencia.component";
@@ -14,7 +14,6 @@ import { EventosComponent } from "../eventos/eventos";
   imports: [SobreMimComponent, CertificadosComponent, ExperienciaComponent, EducacaoComponent, HabilidadesComponent, ProjetosComponent, ContatoComponent, EventosComponent],
   templateUrl: './imprimir.html',
   styleUrl: './imprimir.scss',
+  encapsulation: ViewEncapsulation.None
 })
-export class Imprimir {
-
-}
+export class Imprimir {}
